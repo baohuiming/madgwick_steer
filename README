@@ -1,0 +1,6 @@
+基于Madgwick滤波器的MPU6050姿态解算，可以获得无漂的roll（绕x轴）角度，实现方向盘的定位。
+按照实验结果，Madgwick滤波器优于简单卡尔曼滤波和简单互补滤波，DMP没有测试。
+
+算法来源：https://github.com/kriswiner/MPU6050/blob/master/MPU6050Library/MPU6050IMU.ino
+
+ESP32方向盘源码详见：https://github.com/bjtu-bhm/ESP32-BLE-Steering
